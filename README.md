@@ -43,7 +43,11 @@ Step 3: Containerized Application using multi-stage builds to improve Maintainab
 
 Step 4: Writing Bash script to build the Docker image and run the container as well
 
-                                          
+ case1: If you have MAC Addresses list in macaddress.txt file  
+ 
+                           $bash macaddress.sh
+                           Please Enter  Your API Key: <API_KEY>
+ case2: 
  When you run the script it will prompt user to enter the API Key and MAC Address
  
                            $bash macaddress.sh
