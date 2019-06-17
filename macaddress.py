@@ -21,13 +21,11 @@ def fetchData():
   except Exception:
     print("Please enter valid API KEY and MAC Address")
   else:
-    print("MAC Address You entered  : "+data['macAddressDetails']['searchTerm'] )
-    print("Company Name             : "+data['vendorDetails']['companyName']);
-    print("Company Address          : "+data['vendorDetails']['companyAddress']);
-    print("Country code             : "+data['vendorDetails']['countryCode']);
+    print("MAC Address        :    "+data['macAddressDetails']['searchTerm'] )
+    print("Company Name       :    "+data['vendorDetails']['companyName']);
+    print("Company Address    :    "+data['vendorDetails']['companyAddress']);
+    print("Country code       :    "+data['vendorDetails']['countryCode']);
     with open('output.json','w') as f:
       f.write(json.dumps(data,indent=4,sort_keys=True))
 if __name__ == "__main__":
     fetchData()
-
-
