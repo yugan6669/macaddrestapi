@@ -55,13 +55,13 @@ Step 4: Writing Bash script to build the Docker image and run the container as w
                            
    In the above all steps The output looks like :
  
-MAC Address          : 44:38:39:ff:ef:57
+MAC Address        :    44:38:39:ff:ef:57
 
-Company Name         : Cumulus Networks, Inc
+Company Name       :    Cumulus Networks, Inc
 
-Company Address      : 650 Castro Street, suite 120-245 Mountain View  CA  94041 US
+Company Address    :    650 Castro Street, suite 120-245 Mountain View  CA  94041 US
 
-Country code         : US
+Country code       :    US
 
                                           
 
