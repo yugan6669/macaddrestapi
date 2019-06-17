@@ -74,11 +74,19 @@ Automated installing Docker and Cloning Git repo using Ansible while building Cu
 
 Custom Machine Image contains a pre-configured Operating System and Installed softwares like Docker and cloning Git repo
 
+To build the Custom Amazon Machine Image, run the below command
+
 $./packer build  -var-file=variables.json -var 'access_key=value' -var 'secret_key=value ' template.json
 
-After EC2 Instance launched,run the below command to execute the application
+After EC2 Instance launched using the above Custom Amazon Machine Image
 
-                          $bash macaddress.sh
-                          Please Enter  Your API Key: <API_KEY>
-                          Please Enter your MAC Address: <MAC_ADDRESS>
-                         
+ case1: To be obtained the Company Name For the respective MAC Addresses, run the below command  
+ 
+                           $bash macaddress.sh
+                           Please Enter  Your API Key: <API_KEY>
+                           
+ case2: If the macaddress.txt file not exist or file is empty, then it will prompt you  to enter the API Key and MAC Address
+ 
+                           $bash macaddress.sh
+                           Please Enter  Your API Key: <API_KEY>
+                           Please Enter your MAC Address: <MAC_ADDRESS>
