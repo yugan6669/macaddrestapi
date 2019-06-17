@@ -47,8 +47,7 @@ Step 4: Writing Bash script to build the Docker image and run the container as w
  
                            $bash macaddress.sh
                            Please Enter  Your API Key: <API_KEY>
- case2: 
- When you run the script it will prompt user to enter the API Key and MAC Address
+ case2: If the macaddress.txt file not exist or file is empty, then it will prompt you  to enter the API Key and MAC Address
  
                            $bash macaddress.sh
                            Please Enter  Your API Key: <API_KEY>
