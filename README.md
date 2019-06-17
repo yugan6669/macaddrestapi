@@ -55,9 +55,14 @@ Step 4: Writing Bash script to build the Docker image and run the container as w
                            
    In the above all steps The output looks like :
  
-company Name  for MAC Address: 44:38:39:ff:ef:57 is  Cumulus Networks, Inc
-Company Address is 650 Castro Street, suite 120-245 Mountain View  CA  94041 US
-countryCode is: US  
+MAC Address          : 44:38:39:ff:ef:57
+
+Company Name         : Cumulus Networks, Inc
+
+Company Address      : 650 Castro Street, suite 120-245 Mountain View  CA  94041 US
+
+Country code         : US
+
                                           
 
 Work is under Progress(Building Docker Image using Packer)      
