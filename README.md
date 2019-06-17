@@ -43,7 +43,7 @@ Step 3: Containerized Application using multi-stage builds to improve Maintainab
 
 Step 4: Writing Bash script to build the Docker image and run the container as well
 
- case1: To be obtained the Company Name For the respective MAC Addresses, run the below command  
+ case1: In order to obtained the Company Name of required MAC Addresses, store all the MAC Addresses in the file named macaddress.txt  and run the below command  
  
                            $bash macaddress.sh
                            Please Enter  Your API Key: <API_KEY>
