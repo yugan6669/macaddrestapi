@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install docker
+    shell: curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh  && sudo usermod -aG docker $(whoami)
+  - name: Clone code repository
+    git:
+       repo: https://github.com/krishnamaram2/MACAddress.git
+       dest: /home/ubuntu/MACAddress
